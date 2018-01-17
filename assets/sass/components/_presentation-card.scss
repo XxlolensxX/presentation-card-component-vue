@@ -1,0 +1,49 @@
+.presentation-card{
+	background: linear-gradient(0deg, rgba(42, 245, 152, 0.6) , rgba(251, 171, 126, 0) );
+	box-shadow: 10px 9px 23px -9px rgba(0,0,0,0.54);
+	border-radius: 5px;
+	max-width: 500px;
+
+	&__head{
+		background: linear-gradient(152deg, rgba(142, 197, 252, 0.6) , rgba(224, 195, 252, 0) );
+		color: $color_white;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+
+		h2{
+			margin: 0;
+		}
+
+	}
+
+	&__body{
+		background-color: $color_white;
+
+		.photo{
+
+			background-color: grey;
+			width: 60px;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 180px;
+			margin: 16px auto;
+
+			span{
+				font-size: 40px;
+				color: $color_white;
+			}
+		}
+
+		.info{
+			text-align: center;
+			margin: 8px 0;
+			p{
+				margin: 0;
+			}
+		}
+	}
+
+}

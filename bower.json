@@ -1,0 +1,25 @@
+{
+  "name": "tema",
+  "description": "marco de trabajo para el desarrollo de un tema en wordpress",
+  "main": "index.js",
+  "authors": [
+    "Carlos Escorche"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "wordpress",
+    "gulp",
+    "bower"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-3.2.1.min": "https://code.jquery.com/jquery-3.2.1.min.js"
+  }
+}
